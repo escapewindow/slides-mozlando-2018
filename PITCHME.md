@@ -20,11 +20,8 @@ Four phases:
 - **_ship_** signed-off candidate build to users
 
 Note:
-- Release promotion has four phases.
-- We *build* and test shippable, release-configured builds on push
-- Then, we *promote* a build as a candidate build
-- When we're confident in that build, we *push* it to mirrors
-- When we have signoff, we *ship* to users
+- Release promotion has four discrete phases.
+- We need to be able to defer each subsequent phase until humans make a decision.
 
 ---
 
